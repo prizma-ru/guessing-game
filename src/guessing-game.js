@@ -18,12 +18,13 @@ class GuessingGame {
     }
 
     lower() {
-        this.min = this.midle;
+        this.max = this.midle;
     }
 
     greater() {
-        this.max = this.midle;
+        this.min = this.midle;
     }
 }
 
 module.exports = GuessingGame;
+
